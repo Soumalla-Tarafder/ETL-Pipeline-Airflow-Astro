@@ -52,3 +52,9 @@ winget install -r --id Astronomer.Astro
 ```
 astro dev init
 ```
+
+### After all the code command to run the file
+
+```
+astro dev start
+```
