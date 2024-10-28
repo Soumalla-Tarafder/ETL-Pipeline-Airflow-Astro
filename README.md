@@ -78,3 +78,18 @@ astro dev start
 ### Download db viewer ommunity version
 
 ## connect with the postgres with all the credential and check
+
+### To stop the running code
+
+```
+astro dev stop
+```
+
+### To deploy the application in Astronomer.io
+
+```
+astro login
+
+astro deploy
+```
+## Create a postgres database in aws rds
