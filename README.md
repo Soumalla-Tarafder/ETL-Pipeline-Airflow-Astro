@@ -58,3 +58,23 @@ astro dev init
 ```
 astro dev start
 ```
+
+### After all this we have to setup the variables
+##    1.  after open the airflow >> login >> admins >> connections >> + >>
+##    "nasa_api" [connection_api] >> host "https://api.nasa.gov/"
+##    "extra" {"api_key" : "SUTfugfjAzSkMaL7ywswspqg29hYSQmzJ6XTvscT"}
+
+##    2. my_postgres_connection
+##    "Connection type" : postgres
+##    "host" : copy from docker container name
+##    "password" : postgres
+##    "database" : postgres
+##    "login" : postgres
+##    "port" : 5432
+
+##    got to dag and run it
+
+
+### Download db viewer ommunity version
+
+## connect with the postgres with all the credential and check
